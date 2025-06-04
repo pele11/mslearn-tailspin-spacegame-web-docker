@@ -33,7 +33,7 @@ stages:
   - job: 'Deploy'
     displayName: 'Deploy job'
     pool:
-      vmImage: 'ubuntu-latest
+      vmImage: 'ubuntu-latest'
     variables:
     - group: Release
     steps:
